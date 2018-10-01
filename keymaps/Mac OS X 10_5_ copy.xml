@@ -118,6 +118,22 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta end" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta home" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta home" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="EditorUnSelectWord" />
   <action id="FileChooser.GotoHome">
     <keyboard-shortcut first-keystroke="alt 1" />
@@ -236,12 +252,6 @@
   <action id="RunDashboard.UngroupConfigurations">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
-  </action>
-  <action id="ScrollPane-scrollEnd">
-    <keyboard-shortcut first-keystroke="meta down" />
-  </action>
-  <action id="ScrollPane-scrollHome">
-    <keyboard-shortcut first-keystroke="meta up" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="meta d" />

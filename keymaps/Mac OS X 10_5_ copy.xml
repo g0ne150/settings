@@ -86,6 +86,9 @@
     <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="meta alt down" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorCompleteStatement">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
@@ -240,6 +243,9 @@
   <action id="PropertyInspectorActions.RemoveProperty">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="meta alt f8" />
   </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="meta y" />
